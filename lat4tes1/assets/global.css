@@ -1,0 +1,57 @@
+* {
+	width: 100%;
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2.074em;
+}
+
+main {
+	width: 80vw;
+		max-width: 680px;
+	height: auto;
+	margin: auto;
+}
+
+
+table {
+	border: 1px solid black;
+	table-layout: fixed;
+	text-align: center;
+}
+
+
+@media screen and (max-width: 340px) {
+	* {
+	width: 100%;
+	max-width: 340px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2.074em;
+}
+
+main {
+	width: 80vw;
+		max-width: 680px;
+	height: auto;
+	margin: auto;
+}
+
+
+.nomor {
+	text-align: left;
+	display: inline-block;
+}
+
+.strip {
+	text-align:left;
+	display: inline-block;
+}
+
+table {
+	border: 1px solid black;
+	border-collapse: collapse;
+	table-layout: fixed;
+	text-align: center;
+}
+	}
