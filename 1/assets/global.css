@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+@font-face {
+	font-family: 'georgia';
+	src: url(fonts/Georgia.woff); 
+}
+
+
+* {
+	width: 100%;
+	max-width: 1366px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 2.074em;
+}
+
+main {
+	width: 80vw;
+		max-width: 680px;
+	height: auto;
+	margin: auto;
+}
+
+
+table {
+	border: 1px solid black;
+	table-layout: fixed;
+	text-align: center;
+}
+
+@media screen and (min-width: 340px) {
+
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.728em ;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.44em ;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 1.2em ;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 0.694em;
+}
+
+p {
+	font-family: 'georgia', serif;
+	font-weight: 400;
+	font-size: 0.833em;
+}
+
+
+body {
+	font-size: 100%;
+}
+
+.dropcap1:first-letter {
+  font-family: "georgia", serif;
+  float: left;
+  font-size: 4.3em;
+  line-height: 90%;
+}
+}
+
+@media screen and (max-width: 340px) {
+h1 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1.728em ;
+}
+
+h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 1.44em ;
+}
+
+h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: normal;
+	font-size: 1.2em ;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+	font-size: 1em;
+}
+
+h5 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 0.694em;
+}
+
+p {
+	font-family: 'georgia', serif;
+	font-weight: 400;
+	font-size: 0.833em;
+}
+.dropcap1:first-letter {
+  font-family: "georgia", serif;
+  float: left;
+  font-size: 3.583em;
+  line-height: 110%;
+}
+}
+
+
