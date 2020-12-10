@@ -1,0 +1,233 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  max-width: 1920px;
+}
+
+.iconify { 
+  color: black; 
+}
+
+body {
+  width:100%;
+  background-image: url('large.jpg');
+  background-size: cover;
+  display: block;
+  background-repeat: no-repeat;
+  height: auto;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 8vh;
+  background-color: #1C4343;
+  font-family: 'Open Sans', sans-serif;
+  position: fixed;
+  width: 100%;
+}
+
+.iconatas {
+  display: flex;
+  padding-left: 9em;
+  padding-top: 5em;
+}
+
+.iconatas img {
+  width: 8em;
+}
+
+.logo {
+  width:15em;
+}
+
+#nav-links {
+  display: flex;
+  justify-content: space-around;
+  width: 50%
+}
+
+#nav-links li {
+  list-style: none;
+}
+
+#nav-links a{
+  color: #FFFFFF;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+
+#nav-links a:hover{
+    background-color: white;
+  color: #1C4343;
+  transition: 0.5s;
+  }
+
+
+.line1{
+  width: 10px;
+  height: 4px;
+  background-color: #FFFFFF;
+  margin: 5px;
+}
+.line2{
+  width: 25px;
+  height: 4px;
+  background-color: #FFFFFF;
+  margin: 5px;
+}
+.line3{
+  width: 10px;
+  height: 4px;
+  background-color: #FFFFFF;
+  margin: 5px;
+}
+
+#burger {
+  display: none;
+  cursor: pointer;
+}
+
+
+.partners {
+  display: flex;
+  width: 72px;
+}
+
+.tombol {
+  display: none;
+}
+
+.moreinfo {
+  padding-top: 1.5em;
+  padding-bottom: 4em;
+}
+
+.small1 {
+  display: none;
+}
+
+.menu4 {
+  padding-top: 10em;
+  display: flex;
+  text-align: center;
+  width: 100%;
+
+}
+.menu4 img {
+  width: 6em;
+  height: 6em;
+}
+
+.grupicon {
+  width: 25%;
+}
+
+
+.footer {
+  min-height: 20vh;
+  background-color: #1C4343;
+  padding-left: 10em;
+}
+
+.footer .logo {
+float:left;
+}
+
+
+#nav-links2 li img {
+  width:50px;
+  float: left;
+  margin-left: 3em;
+  p
+
+}
+
+#nav-links2 li {
+  list-style: none;
+
+}
+
+#nav-links2 h6 {
+  
+}
+
+.red { 
+    color: #B90000; 
+} 
+
+.smalli {
+  display: none;
+}
+
+.largei {
+  display: block;
+}
+
+.column {
+  float: left;
+  width: 500px;
+  height: 700px; 
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.tombol {
+  display: none;
+}
+
+.btn {
+  padding-left: 10em;
+}
+
+.smallabout {
+  display: none;
+}
+
+.event {
+  padding-left: 10em;
+
+}
+
+
+.column1 {
+  float: left;
+  width: 500px;
+  height: 700px; 
+  padding: 10px;
+}
+
+.row1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.imginvolved {
+  padding-top: 10em;
+  padding-left: 10em;
+}
+
+.isievent {
+  float: left;
+}
+
+.up {
+  background-color : white;
+  border-radius: 10px;
+  width: 5em;
+  height: 5em;
+  text-align: right;
+}
+
+.up .iconify {
+  font-size: 5em;
+}

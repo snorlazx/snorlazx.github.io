@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+@import url('http://fonts.cdnfonts.com/css/alphakind');
+
+
+h1 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 7.022em;
+	padding-left: 1.5em;
+	color: #CBEAF1;
+
+}
+
+h2 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 2.162em;
+	padding-left: 5.5em;
+	color: #325655;
+}
+
+h3 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 1.922em;
+	padding-left: 6em;
+	color: #325655;
+	padding-top: 5em;
+}
+
+h4 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.067em;
+	color: #FFFFFF;
+	padding-bottom: 0.5em;
+}
+
+
+h5 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 3.464em;
+	padding-left: 3.5em;
+	color: #1C4343;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.067em;
+	padding-left: 1em;
+	color: #FFFFFF;
+}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	padding-left: 10em;
+	color: white;
+	font-size: 1.2em;
+	line-height: 2.162em;
+}
+
+
+
+.tagline {
+  color: #FFFFFF;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  font-size: 3em;
+}
+
+.content1 p {
+	color: black;
+	line-height: 1.5em;
+	width: 100%;
+	padding-left: 1em;
+}
+
+.content1 h6 {
+	color: black;
+}
+
+.content2 h6 {
+	color: black;
+}
+
+.content2 p {
+	color: black;
+	line-height: 1.5em;
+	width: 100%;
+	padding-left: 1em;
+}
+
+.menu4 h5{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 1.2em;
+	padding-left:1em;
+	color: white;
+
+}
+
+.menu4 h6{
+	padding-left:1em;
+	font-size:0.9em;
+}
+
+
+
+
+.about p {
+ width: 60%;
+}
+
+.getinvolved1 p {
+ width: 60%;
+}
+
+.page2 p {
+	width: 60%;
+}
+
+.event p {
+	padding-left:0;
+		width: 20em;
+}
+
+@media screen and (max-width: 415px){
+	h1 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 4em;
+		padding-left: 0.5em;
+		width: 50px;
+
+}
+
+h2 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 1em;
+	padding-left: 1em;
+	width:200px;
+
+}
+
+h3 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 1.2em;
+	padding-left: 1em;
+		padding-top: 5em;
+}
+
+
+h5 {
+	font-family: 'Alphakind', sans-serif;
+	font-size: 2.5em;
+	padding-left: 0.5em;
+}
+
+h6 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 0.7em;
+	padding-left: 0.5em;
+	color: #FFFFFF;
+}
+
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	text-align: left;
+	font-size: 1em;
+	padding-left:1em;
+	padding-right: 1em;
+}
+
+.content1 p {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.content2 p {
+	margin-left: 1em;
+	margin-right: 1em;
+}
+
+.tagline{
+	font-size: 2em;
+padding-right: 0;
+}
+
+.smallabout h6 {
+	font-size: 1.2em;
+}
+
+.getinvolved1 p {
+ width: 100%;
+}
